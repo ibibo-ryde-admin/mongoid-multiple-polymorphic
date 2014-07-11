@@ -1,0 +1,6 @@
+require 'mongoid'
+require 'mongoid-multiple-polymorphic/mongoid/relations/bindings/referenced/in'
+require 'mongoid-multiple-polymorphic/mongoid/relations/referenced/one'
+require 'mongoid-multiple-polymorphic/mongoid/relations/binding'
+require 'mongoid-multiple-polymorphic/mongoid/relations/metadata'
+require 'mongoid-multiple-polymorphic/mongoid/relations/polymorphic'
