@@ -1,3 +1,5 @@
 .idea
 .rspec
+Gemfile.lock
+
 projectFileBackup/**
