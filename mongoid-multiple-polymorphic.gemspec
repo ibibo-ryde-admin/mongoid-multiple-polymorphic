@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://rubygems.org/gems/mongoid-multiple-polymorphic'
   s.license     = 'MIT'
 
-  s.add_runtime_dependency 'mongoid', '~> 4.0'
+  s.add_runtime_dependency 'mongoid', '>= 4.0'
 end
