@@ -20,7 +20,7 @@ PORT = ENV["MONGOID_SPEC_PORT"].to_i
 # Mongoid.logger.level = Logger::DEBUG
 
 CONFIG = {
-  sessions: {
+  clients: {
     default: {
       database: "mongoid_multiple_polymorphic_test",
       hosts: [ "#{HOST}:#{PORT}" ]
