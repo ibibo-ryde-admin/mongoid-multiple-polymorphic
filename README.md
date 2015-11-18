@@ -13,8 +13,10 @@ has_one :preview, as: :assetable, class_name: 'Asset', dependent: :destroy, auto
 
 It will be saved in db as:
 
-field: assetable_type
+field: assetable_field
+
 value: :icon
 
-field: assetable_type
+field: assetable_field
+
 value: :preview
