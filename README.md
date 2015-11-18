@@ -8,6 +8,7 @@ In mongoid 4, a model can no longer have more than 1 field with the same polymor
 Usage:
 
 has_one :icon, as: :assetable, class_name: 'Asset', dependent: :destroy, autosave: true
+
 has_one :preview, as: :assetable, class_name: 'Asset', dependent: :destroy, autosave: true
 
 It will be saved in db as:
