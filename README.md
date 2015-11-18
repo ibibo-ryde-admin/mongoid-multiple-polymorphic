@@ -11,6 +11,7 @@ has_one :icon, as: :assetable, class_name: 'Asset', dependent: :destroy, autosav
 has_one :preview, as: :assetable, class_name: 'Asset', dependent: :destroy, autosave: true
 
 It will be saved in db as:
+
 field: assetable_type
 value: :icon
 
